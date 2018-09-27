@@ -1,0 +1,122 @@
+* {
+  margin: 0;
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+/* Mobile Styles */
+@media only screen and (max-width: 400px) {
+  body {
+    background-color: #F64C72; /* Red */
+  }
+}
+
+/* Tablet Styles */
+@media only screen and (min-width: 401px) and (max-width: 960px) {
+  body {
+    background-color: #F13C20; /* Yellow */
+  }
+}
+
+/* Desktop Styles */
+@media only screen and (min-width: 961px) {
+  body {
+    background-color: #EAC9C1;
+}
+}
+body{
+background: #EAC9C1;
+background-image:href="sangria";
+}
+.main{
+	background:#EBD8D0;
+	margin:15px;
+  border-style: dotted;
+  border-color: darkorange;
+}
+
+.firstDiv{
+	background:src="sangria.jpg";
+}
+h1{
+	font-size: 10em;
+  font-variant: small-caps;
+	display:block;
+	margin:0px;
+  text-decoration: line-through;
+  overflow: auto;
+}
+#firstHeader{
+	text-align: center;
+    color: #2dbd6d;
+    border-style: outset;
+  border-color: #ff842e;
+	display:block;
+}
+firstHeader {
+    border: cornflowerblue;
+    border-style: double;
+}
+#mainDivCont{
+	border:15px;
+    border-style: inset;
+    display:block;
+    width:100%;
+    height:auto;
+    border-color: #8512ab30;
+    border-style: groove;
+    overflow: auto;
+    /*background-color:#F18F01;*/
+}
+h3{
+	color: #2f2FA2;
+    font-family: cursive;
+}
+.contDiv{
+	color: #845EC2;
+    padding-top: 0px;
+    border-top-width: 5px;
+    margin-top: 20px;
+    margin-bottom: 15px;
+    border-style: inset;
+	   display: table;
+}
+.left{
+  width: 24.5%;
+  height:auto;
+	float:left;
+	display:block
+  position:relative;
+}
+.right{
+  width: 75.5%;
+  height:auto;
+	float:right;
+	display:block;
+  position:relative;
+}
+p{
+	font-family: monospace;
+    font-size: unset;
+	color : #2a5452;
+}
+#firstUL{
+	   /*background-color: darksalmon;*/
+	 /* display: table-row-group;*/
+}
+ol{
+	color: #b72057;
+    font-size: 22px;
+    font-style: italic;
+    font-family: monospace;
+}
+img{
+	display:block;
+    margin:auto;
+}
+#img2{
+    padding-bottom: 20px;
+    padding-top: 20px;
+    border-style: dotted;
+    border-color: darkorange;
+}
